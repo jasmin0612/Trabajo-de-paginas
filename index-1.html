@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Prevención del uso de drogas</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* Barra de navegación */
+        nav {
+            background-color: #cfe8fc;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 999;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav h1 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #444;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #0056b3;
+        }
+
+        /* Contenido principal con margen para no chocar con el nav */
+        .content {
+            padding: 100px 20px 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section {
+            background-color: white;
+            margin-bottom: 40px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            border-left: 8px solid #d0d0d0;
+            transition: transform 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+        }
+
+        h2, h3 {
+            color: #444;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 20px auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.03);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        th {
+            background-color: #fff4c4; /* amarillo claro */
+        }
+
+        /* Botones interactivos */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #d7f7d7; /* verde suave */
+            color: #333;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #b9efb9;
+            transform: scale(1.05);
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        /* Colores por sección */
+        .azul { border-left-color: #a3d5f7; }
+        .rosa { border-left-color: #f7c7d9; }
+        .amarillo { border-left-color: #fff4c4; }
+        .verde { border-left-color: #d7f7d7; }
+
+    </style>
+</head>
+<body>
+
+<!-- Menú superior / barra de navegación -->
+<nav>
+    <h1>Drogas y Prevención</h1>
+    <div>
+        <a href="#introduccion">Inicio</a>
+        <a href="#drogas">¿Qué son?</a>
+        <a href="#efectos">Efectos</a>
+        <a href="#tipos">Tipos</a>
+        <a href="#estadisticas">Estadísticas</a>
+        <a href="#prevencion">Prevención</a>
+    </div>
+</nav>
+
+<div class="content">
+
+    <section id="introduccion" class="azul">
+        <h2>Prevención del uso de drogas</h2>
+        <p>En la actualidad, el consumo de drogas representa uno de los principales desafíos para la salud pública y el bienestar social. Las drogas no solo afectan la salud física y mental de quienes las consumen, sino que también impactan negativamente en sus relaciones familiares, su rendimiento académico o laboral y su entorno en general. La prevención del consumo de sustancias psicoactivas es, por tanto, una tarea fundamental que involucra a toda la sociedad: desde las instituciones educativas y los gobiernos, hasta las familias y los medios de comunicación.
+        </p>
+        <a href="#prevencion" class="btn">Aprender cómo prevenir</a>
+    </section>
+
+    <section id="drogas" class="rosa">
+        <h2>¿Qué son las drogas?</h2>
+        <p>Las drogas son sustancias que, al entrar en el cuerpo, pueden cambiar la forma en que funciona el cerebro y el cuerpo. Algunas drogas pueden ser legales, como los medicamentos recetados por un doctor o el alcohol (para adultos), y otras son ilegales, como la marihuana (en algunos países), la cocaína o el éxtasis.
+
+Aunque algunas drogas pueden usarse para tratar enfermedades, cuando se usan sin necesidad médica o de manera incorrecta, pueden causar graves problemas de salud. Pueden afectar el pensamiento, las emociones, el comportamiento y hasta dañar órganos como el corazón, el hígado o el cerebro.
+
+El uso de drogas también puede causar adicción, que es cuando una persona no puede dejar de consumirlas aunque le hagan daño.
+
+Por eso, es importante aprender sobre las drogas y saber cómo cuidarnos para tomar decisiones saludables
+        </p>
+        <img src="drogas.jpg""alt="drogas"width="400"
+    </section>
+
+    <section id="efectos" class="amarillo">
+        <h3>Efectos secundarios</h3>
+        <p>Las drogas pueden tener efectos secundarios graves y potencialmente mortales:</p>
+        <ul>
+            <li>Náuseas y vómitos</li>
+            <li>Dolor de cabeza</li>
+            <li>Problemas cardíacos y respiratorios</li>
+            <li>Ansiedad y cambios de humor</li>
+        </ul>
+        <img src="efectodroga.jpg" alt="droga"width="400">    </section>
+
+    <section id="tipos" class="verde">
+        <h3>Tipos de drogas</h3>
+        <p> Las drogas se pueden clasificar de diferentes maneras, pero una forma común de agruparlas es según los efectos que tienen en el cuerpo y la mente. Estos son los principales tipos:
+
+1. Drogas estimulantes
+Aceleran el funcionamiento del cerebro y del cuerpo.
+
+
+Ejemplos: cafeína, nicotina, cocaína, anfetaminas.
+Efectos: aumento de energía, disminución del sueño y del apetito.
+
+
+
+
+2. Drogas depresoras
+Disminuyen la actividad del sistema nervioso.
+
+Ejemplos: alcohol, tranquilizantes, inhalantes.
+Efectos: relajación, sueño, lentitud en el pensamiento y movimiento.
+
+
+
+3. Drogas alucinógenas
+Alteran la percepción de la realidad.
+
+
+Ejemplos: LSD, hongos alucinógenos, éxtasis.
+Efectos: ver o escuchar cosas que no existen, confusión.
+
+
+
+
+4. Drogas opioides
+Son sustancias muy fuertes que alivian el dolor, pero pueden causar adicción rápidamente.
+
+
+Ejemplos: morfina, heroína, fentanilo.
+Efectos: somnolencia, sensación de placer, riesgo de sobredosis.
+
+
+
+
+5. Drogas legales e ilegales
+Algunas drogas, como el alcohol y el tabaco, son legales para adultos, aunque también pueden causar daño. Otras, como la cocaína o la marihuana (en algunos países), son ilegales.
+            Las drogas se agrupan según sus efectos:
+            <ul>
+                <li><strong>Estimulantes:</strong> cafeína, nicotina, cocaína.</li>
+                <li><strong>Depresoras:</strong> alcohol, tranquilizantes.</li>
+                <li><strong>Alucinógenas:</strong> LSD, éxtasis.</li>
+                <li><strong>Opioides:</strong> morfina, heroína.</li>
+            </ul>
+        </p>
+        <img src="drogas.jpg" alt="Tipos de drogas">
+    </section>
+
+    <section id="estadisticas" class="azul">
+        <h2>Estadísticas en México</h2>
+        <table>
+            <tr><th>Droga</th><th>Porcentaje</th></tr>
+            <tr><td>Alcohol</td><td>71.2%</td></tr>
+            <tr><td>Tabaco</td><td>23.4%</td></tr>
+            <tr><td>Marihuana</td><td>12.4%</td></tr>
+            <tr><td>Cocaína</td><td>2.5%</td></tr>
+            <tr><td>Anfetaminas</td><td>1.4%</td></tr>
+        </table>
+        <p>Fuente: SISVEA y OMTAD</p>
+        <img src="graficas.jpg" alt="graficas">
+    </section>
+      <section id="prevencion" class="rosa">
+        <h2>Prevención</h2>
+        <p>
+            La prevención busca evitar el consumo y ayudar a quienes ya lo hacen. Es clave educar, desarrollar habilidades personales,
+            y contar con apoyo familiar y escolar.
+            La prevención del uso de drogas
+es muy importante para proteger
+la salud y el bienestar de las
+personas, especialmente de los
+niños, niñas y adolescentes. Su
+objetivo principal es evitar que las
+personas comiencen a consumir
+drogas y ayudar a quienes ya lo
+hacen a dejar, de hacerlo.
+Las principales características de
+una buena prevención son: 
+Educación clara y veraz: Es
+fundamental conocer qué son
+las drogas, cómo afectan al
+cuerpo y a la mente, y cuáles
+son sus consecuencias. Recibir
+esta información ayuda a
+tomar decisiones responsables
+Desarrollo de habilidades
+personales: Aprender a decir
+.no , saber cómo enfrentar
+la presión de otros, mejorar
+la autoestima y manejar las
+emociones son herramientas
+que ayudan a mantenerse
+alejados del consumo.
+. Apoyo de la familia y la
+escuela: Cuando la familia se
+comunica bien y la escuela
+ofrece un ambiente seguro, es
+más fácil evitar los riesgos.
+        </p>
+        <img src="prevención.jpg" alt="droga"width="400">        <a href="#introduccion" class="btn">Volver al inicio</a>
+    </section>
+
+</div>
+</body>
+</html>
